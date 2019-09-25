@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "数据类型转换", "数�
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.更多数据类型", "3.更多数据类型", "{DD7652D9-0189-4A9A-A662-5819B55DD54D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "值类型和引用类型", "值类型和引用类型\值类型和引用类型.csproj", "{B4934B5D-A6F1-4D01-916B-402DBF802AAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "值类型和引用类型", "值类型和引用类型\值类型和引用类型.csproj", "{B4934B5D-A6F1-4D01-916B-402DBF802AAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "索引器", "索引器\索引器.csproj", "{075B4E47-C26C-4368-A8A5-A8EAD3B8D89A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{B4934B5D-A6F1-4D01-916B-402DBF802AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4934B5D-A6F1-4D01-916B-402DBF802AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4934B5D-A6F1-4D01-916B-402DBF802AAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{075B4E47-C26C-4368-A8A5-A8EAD3B8D89A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{075B4E47-C26C-4368-A8A5-A8EAD3B8D89A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{075B4E47-C26C-4368-A8A5-A8EAD3B8D89A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{075B4E47-C26C-4368-A8A5-A8EAD3B8D89A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{AE28FD61-6CF6-4907-9964-3721FAF810A8} = {0DB1A5EB-A088-4EC6-828B-EA2307692462}
 		{2DC2437A-991A-4F96-B90B-A3D894470EF7} = {0DB1A5EB-A088-4EC6-828B-EA2307692462}
 		{B4934B5D-A6F1-4D01-916B-402DBF802AAB} = {DD7652D9-0189-4A9A-A662-5819B55DD54D}
+		{075B4E47-C26C-4368-A8A5-A8EAD3B8D89A} = {0DB1A5EB-A088-4EC6-828B-EA2307692462}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EB9C7A56-1AFE-47F9-8D5E-8FCAC7ECB879}
