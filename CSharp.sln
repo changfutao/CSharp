@@ -17,7 +17,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.更多数据类型", "3.�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "值类型和引用类型", "值类型和引用类型\值类型和引用类型.csproj", "{B4934B5D-A6F1-4D01-916B-402DBF802AAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "索引器", "索引器\索引器.csproj", "{075B4E47-C26C-4368-A8A5-A8EAD3B8D89A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "索引器", "索引器\索引器.csproj", "{075B4E47-C26C-4368-A8A5-A8EAD3B8D89A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "改善CSharp代码50个有效方法", "改善CSharp代码50个有效方法", "{150907BF-F60F-4BBD-944E-6332A65333CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.优先使用隐式类型的局部变量", "1.优先使用隐式类型的局部变量\1.优先使用隐式类型的局部变量.csproj", "{8CBAFF1C-A244-47B5-A15D-D0B3A51EFA2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.考虑用readonly代替const", "2.考虑用readonly代替const\2.考虑用readonly代替const.csproj", "{B73486BB-DD29-4641-BA7D-36D5EC4FBAA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +55,14 @@ Global
 		{075B4E47-C26C-4368-A8A5-A8EAD3B8D89A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{075B4E47-C26C-4368-A8A5-A8EAD3B8D89A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{075B4E47-C26C-4368-A8A5-A8EAD3B8D89A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CBAFF1C-A244-47B5-A15D-D0B3A51EFA2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CBAFF1C-A244-47B5-A15D-D0B3A51EFA2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CBAFF1C-A244-47B5-A15D-D0B3A51EFA2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CBAFF1C-A244-47B5-A15D-D0B3A51EFA2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B73486BB-DD29-4641-BA7D-36D5EC4FBAA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B73486BB-DD29-4641-BA7D-36D5EC4FBAA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B73486BB-DD29-4641-BA7D-36D5EC4FBAA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B73486BB-DD29-4641-BA7D-36D5EC4FBAA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +74,8 @@ Global
 		{2DC2437A-991A-4F96-B90B-A3D894470EF7} = {0DB1A5EB-A088-4EC6-828B-EA2307692462}
 		{B4934B5D-A6F1-4D01-916B-402DBF802AAB} = {DD7652D9-0189-4A9A-A662-5819B55DD54D}
 		{075B4E47-C26C-4368-A8A5-A8EAD3B8D89A} = {0DB1A5EB-A088-4EC6-828B-EA2307692462}
+		{8CBAFF1C-A244-47B5-A15D-D0B3A51EFA2B} = {150907BF-F60F-4BBD-944E-6332A65333CE}
+		{B73486BB-DD29-4641-BA7D-36D5EC4FBAA1} = {150907BF-F60F-4BBD-944E-6332A65333CE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EB9C7A56-1AFE-47F9-8D5E-8FCAC7ECB879}
